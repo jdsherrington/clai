@@ -13,6 +13,7 @@ Source your .rc file and you should be good to go.
 ## Configuration 
 Upon first running the clai script some required files and directories will be created in your default config directory, under the clai folder simply edit "model" to whichever OpenRouter model you want to use, and update "system_prompt" for finer control over the output. By default the mode is set to a free Llama model.
 
+```
 Usage: ai [OPTION]... [QUERY]
 
 A Command Line tool to interact with AI.
@@ -36,3 +37,4 @@ EXAMPLES:
   ai -r 42? Okay, then what is the question?                    # Reply to the last AI response
   ai -f path/to/myfile.txt What are some key takeaways?         # Read from a file and ask the AI; query optional
   ai -m gpt-3.5-turbo                                           # Switches the AI model being prompted
+```
