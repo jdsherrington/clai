@@ -1,4 +1,6 @@
 # CLAI - Command Line Artifical Intelligence
+**Only tested on Linux**
+
 Just a simple script made for my own purposes to connect to the OpenRouter API. To use, just sign up for OpenRouter, grab an API key, then set the env variable OPENROUTER_API_KEY on your system.
 
 ## Installation
